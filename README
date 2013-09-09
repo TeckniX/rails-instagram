@@ -1,7 +1,8 @@
 Instagram on Rails Sample
 =========================
 
-Sample code of Instagram integration to Rails.
+Sample code of Instagram integration to Rails, originally from:
+https://github.com/mshk/Instagram-on-Rails-Sample/
 
 *Rails 3
 *[Instagram Ruby Gem]{https://github.com/Instagram/instagram-ruby-gem}

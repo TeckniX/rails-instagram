@@ -1,4 +1,14 @@
 <h1><%= @user.username %> feed</h1>
+<%= debug @recent_media_items %>
+<%# For media_recent use .each otherwise data is needed %>
+<%# @recent_media_items.data.each do |media| %>
 <% @recent_media_items.each do |media| %>
-<img src="<%= media.images.thumbnail.url%>">
+
+<% if false %>
+<div style="float:left;margin:5px;width:180px;">
+  <img src="<%= media.images.thumbnail.url%>"> 
+  <p><%= media.caption.text %> <br/> By <a href="<%= media.link %>">@<%= media.user.username %></a></p>
+</div>
 <% end%>
+<%end %>
+<div style="clear:both"></div>
